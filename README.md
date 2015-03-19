@@ -1,13 +1,3 @@
-# Selfstarter
-Selfstarter makes it easy to roll your own crowdfunding site. To get started, fork this repository and change around ```config/settings.yml``` to suit your needs.
-
-[See it in action](http://selfstarter.us)
-
-## Background
-
-After a [rejection from Kickstarter](http://techcrunch.com/2012/10/07/the-story-of-lockitron-crowdfunding-without-kickstarter/), we decided to follow in the footsteps of [App.net](https://app.net/) and make our own crowdfunding site for [Lockitron](https://lockitron.com). We've been absolutely blown away by the response. As a first step in what will hopefully be a long history of giving back, we have decided to open source the crowdfunding platform that got us here. Please send questions, comments, or concerns to [hello@lockitron.com](mailto:hello@lockitron.com)!
-
-Selfstarter is a starting point. We made some specific choices with Selfstarter for Lockitron and we recommend you tailor it for your project:
 
 * We use Amazon Payments for payments. You can use [Stripe](https://stripe.com) or [WePay](https://www.wepay.com/). We used Kickstarter's awesome ```amazon_flex_pay``` gem.
 * We collect multi-use tokens from customers with Amazon Payments - this lets us collect payment information without charging the customer until we are ready to ship
@@ -21,7 +11,7 @@ Selfstarter is a starting point. We made some specific choices with Selfstarter 
 First you'll need to fork and clone this repo
 
 ```bash
-git clone https://github.com/lockitron/selfstarter.git
+git clone https://github.com/danielraban/crowdfunding.git
 ```
 
 Let's get all our dependencies setup:
